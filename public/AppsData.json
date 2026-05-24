@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=150&auto=format&fit=crop&q=60",
+    "title": "ChatStream Pro",
+    "companyName": "NexaConnect Labs",
+    "description": "Secure, fast, and encrypted instant messaging app with high-quality video calling and seamless file sharing.",
+    "size": 42.5,
+    "reviews": 12450,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=150&auto=format&fit=crop&q=60",
+    "title": "FitTrack Absolute",
+    "companyName": "Zenith Health Inc.",
+    "description": "Your ultimate fitness companion to track daily steps, workouts, calorie burn, and heart rate monitoring.",
+    "size": 65.2,
+    "reviews": 8920,
+    "ratingAvg": 4.3,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=150&auto=format&fit=crop&q=60",
+    "title": "Shadow Run: Origins",
+    "companyName": "PixelForge Games",
+    "description": "An endless 3D runner game with stunning graphics, intense power-ups, and challenging seasonal obstacles.",
+    "size": 245.0,
+    "reviews": 45300,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=150&auto=format&fit=crop&q=60",
+    "title": "ZenMind Meditation",
+    "companyName": "CalmWave Media",
+    "description": "Reduce anxiety, improve sleep quality, and find your inner peace with curated daily guided meditations.",
+    "size": 38.1,
+    "reviews": 5600,
+    "ratingAvg": 4.5,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?w=150&auto=format&fit=crop&q=60",
+    "title": "TaskFlow Board",
+    "companyName": "Stratosphere Tools",
+    "description": "A minimalist agile project management tool to organize tasks, set deadlines, and collaborate with teams.",
+    "size": 22.4,
+    "reviews": 3120,
+    "ratingAvg": 4.1,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=150&auto=format&fit=crop&q=60",
+    "title": "CryptoPulse Tracker",
+    "companyName": "BlockMetrics",
+    "description": "Real-time cryptocurrency price alerts, market analysis, and portfolio tracking with advanced live charts.",
+    "size": 29.7,
+    "reviews": 7400,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=150&auto=format&fit=crop&q=60",
+    "title": "NoteSpark Pro",
+    "companyName": "IdeaCraft Software",
+    "description": "Rich-text note-taking app with markdown support, cloud backup, tags, and cross-device instant syncing.",
+    "size": 18.9,
+    "reviews": 1520,
+    "ratingAvg": 4.2,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=150&auto=format&fit=crop&q=60",
+    "title": "EduLearn Academy",
+    "companyName": "Global Knowledge Corp",
+    "description": "Access thousands of video courses in coding, design, business, and language learning from top global experts.",
+    "size": 54.0,
+    "reviews": 18900,
+    "ratingAvg": 4.6,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=150&auto=format&fit=crop&q=60",
+    "title": "BiteDash Food",
+    "companyName": "HyperLocal Delivery",
+    "description": "Order delicious food from your favorite local restaurants and get it delivered directly to your doorstep fast.",
+    "size": 48.3,
+    "reviews": 34100,
+    "ratingAvg": 4.5,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 1150 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=150&auto=format&fit=crop&q=60",
+    "title": "RoamRadar Travel",
+    "companyName": "Voyage Network",
+    "description": "Discover hidden tourist gems, book cheap flights, plan detailed travel itineraries, and read real hotel reviews.",
+    "size": 72.1,
+    "reviews": 6200,
+    "ratingAvg": 4.3,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 750 },
+      { "name": "4 star", "count": 1950 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1537498424460-1ea6028c3fbe?w=150&auto=format&fit=crop&q=60",
+    "title": "SkyCast Weather",
+    "companyName": "MeteoGroup Global",
+    "description": "Accurate, hyper-local hourly weather forecasts, severe storm alerts, live radar maps, and AQI monitoring.",
+    "size": 15.6,
+    "reviews": 14300,
+    "ratingAvg": 4.4,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 590 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=150&auto=format&fit=crop&q=60",
+    "title": "CineStream Studio",
+    "companyName": "Vortex Entertainment",
+    "description": "Stream award-winning original web series, blockbuster movies, and live TV channels in stunning Ultra HD.",
+    "size": 59.4,
+    "reviews": 52100,
+    "ratingAvg": 4.7,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 35000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150&auto=format&fit=crop&q=60",
+    "title": "SpendWise Budget",
+    "companyName": "FinTech Innovations",
+    "description": "Track expenses automatically, scan receipts, manage monthly budgets, and optimize your financial savings goal.",
+    "size": 26.8,
+    "reviews": 4800,
+    "ratingAvg": 4.0,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=150&auto=format&fit=crop&q=60",
+    "title": "Valor Tactics",
+    "companyName": "IronClad Studios",
+    "description": "A multiplayer real-time strategy game where you build empires, train armies, and clash with players worldwide.",
+    "size": 380.5,
+    "reviews": 89000,
+    "ratingAvg": 4.6,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 7400 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 55000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=150&auto=format&fit=crop&q=60",
+    "title": "AudioBook Haven",
+    "companyName": "SoundStory Ltd",
+    "description": "Listen to thousands of premium audiobooks and narrations offline from all major authors and genres.",
+    "size": 41.2,
+    "reviews": 3900,
+    "ratingAvg": 4.3,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=150&auto=format&fit=crop&q=60",
+    "title": "SecureVault VPN",
+    "companyName": "CyberShield Tech",
+    "description": "Protect your digital privacy and bypass geo-blocks with our ultra-secure, blazing-fast, no-logs VPN proxy.",
+    "size": 21.0,
+    "reviews": 27400,
+    "ratingAvg": 4.5,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 17000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=150&auto=format&fit=crop&q=60",
+    "title": "DoodlePad Paint",
+    "companyName": "CreativeFlow Labs",
+    "description": "An intuitive, layered digital sketching and painting app for artists of all skill levels with custom brushes.",
+    "size": 88.6,
+    "reviews": 8100,
+    "ratingAvg": 4.4,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1595079676339-1534801ad6cf?w=150&auto=format&fit=crop&q=60",
+    "title": "RecipeBook Chef",
+    "companyName": "YumMedia Labs",
+    "description": "Step-by-step cooking recipes with instructional videos, smart grocery lists, and personalized meal planning.",
+    "size": 34.7,
+    "reviews": 4600,
+    "ratingAvg": 4.2,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 650 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=150&auto=format&fit=crop&q=60",
+    "title": "VocalRecorder HQ",
+    "companyName": "Acoustic System",
+    "description": "Crystal clear high-fidelity audio recorder with built-in noise cancellation, audio trimming, and transcription.",
+    "size": 12.3,
+    "reviews": 11200,
+    "ratingAvg": 4.6,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 1050 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=150&auto=format&fit=crop&q=60",
+    "title": "ScanGuard Antivirus",
+    "companyName": "Matrix Security",
+    "description": "Real-time malware protection, privacy advisor, wi-fi network scanner, and junk files cleaner for smartphones.",
+    "size": 31.5,
+    "reviews": 29800,
+    "ratingAvg": 4.4,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1150 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 18000 }
+    ]
+  }
+]
