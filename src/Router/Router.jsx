@@ -3,7 +3,7 @@ import MainLayouts from "../MainLayouts/MainLayouts";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
-import Hero from "../Pages/Hero";
+import ErrorPages from "../Pages/ErrorPages";
 
 
 
@@ -11,14 +11,12 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayouts />,
-    // hydrateFallbackElement: <p>Loading.............</p>
+    errorElement: <ErrorPages />,
+    hydrateFallbackElement: <p>Loading.............</p>,
     children: [
+      
         {
             index: true,
-            element: <Hero />
-        },
-        {
-            path: "/home",
             element: <Home />
         },
         {
