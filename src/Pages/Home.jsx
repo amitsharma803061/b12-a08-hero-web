@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import useLoader from "../Hooks/UseLoadData";
 import AppsCard from "./AppsCard";
 
@@ -18,10 +19,10 @@ const Home = () => {
                         <img src="/src/assets/P.png" alt="" />
                         <span>Google Play</span>
                     </button>
-                    <button className="btn h-15 border-gray-400 text-xl">
+                    <Link to="/apps" className="btn h-15 border-gray-400 text-xl">
                         <img src="/src/assets/L.png" alt="" />
                         <span>App Store</span>
-                    </button>
+                    </Link>
                 </div>
             </div>
 
@@ -70,6 +71,9 @@ const Home = () => {
                         appsCard.map((app) => (<AppsCard key={app.id} app={app}></AppsCard>))
                     }
 
+                </div>
+                <div className="text-center mt-5">
+                    <Link to="/apps" className="btn text-xl bg-gradient-to-r from-[rgb(108,13,231)] to-[rgb(142,7,221)] text-white mb-5">Show All</Link>
                 </div>
             </div>
 
