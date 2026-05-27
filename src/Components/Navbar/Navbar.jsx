@@ -21,6 +21,17 @@ const Navbar = () => {
 
         return `${baseClass} ${isActive ? activeClass : inactiveClass}`;
     }
+
+
+       // click the button and go to my github page
+    const githubUrl = `https://github.com/amitsharma803061`;
+
+    const handleClickGithub = () => {
+        window.open(githubUrl, "_bank", "noopener,noreferrer")
+    }
+
+
+
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -49,7 +60,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end mr-5">
-                <Link className="btn text-sm text-white bg-gradient-to-r from-[rgb(108,13,231)] to-[rgb(142,7,221)]">
+                <Link onClick={handleClickGithub} className="btn text-sm text-white bg-gradient-to-r from-[rgb(108,13,231)] to-[rgb(142,7,221)]">
                     <img src="/src/assets/Vector.png" alt="" />
                     <span>Contribute</span>
                 </Link>

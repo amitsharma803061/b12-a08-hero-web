@@ -7,6 +7,17 @@ const Home = () => {
     const { apps } = useLoader()
     // data ke fetch kore load korar jonne
     const appsCard = apps.slice(0, 8)
+
+
+    // click the button and go to google play store
+    // url = https://play.google.com/store/games?hl=en
+    const playStoreUrl = `https://play.google.com/store/games?hl=en`;
+
+    const handleClickGooglePlayStore = () => {
+        window.open(playStoreUrl, "_bank", "noopener,noreferrer")
+    };
+
+ 
     return (
         <nav className="bg-gray-200">
 
@@ -15,7 +26,7 @@ const Home = () => {
                 <h3 className="text-6xl font-bold"><span className="bg-gradient-to-r from-[rgb(108,13,231)] to-[rgb(142,7,221)] bg-clip-text text-transparent">Productive</span> Apps</h3>
                 <p className="text-xl md:w-300 w-150 mx-auto text-gray-500 p-2">At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className="space-x-4 p-2">
-                    <button className="btn h-15 border-gray-400 text-xl">
+                    <button onClick={handleClickGooglePlayStore} className="btn h-15 border-gray-400 text-xl">
                         <img src="/src/assets/P.png" alt="" />
                         <span>Google Play</span>
                     </button>

@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router";
 import useLoader from "../Hooks/UseLoadData";
 import { useEffect, useState } from "react";
 import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from "recharts";
+import { toast } from "react-toastify";
 
 const AppsDetailsPage = () => {
 
@@ -51,13 +52,17 @@ const AppsDetailsPage = () => {
         let updatedList = []
         if (installingList) {
             const isListing = installingList.some(a => a.id === app.id)
-            if (isListing) return alert("Already have")
+            if (isListing) {
+                return toast.success("This apps downloads is success")
+            }
             updatedList = [...installingList, app]
         }
         else {
             updatedList.push(app)
         }
-        localStorage.setItem("installation", JSON.stringify(updatedList))
+        localStorage.setItem("installation", JSON.stringify(updatedList));
+        // toast success
+        toast.success(`${app.name || "App"} download started successfully!`);
     };
 
     // const sortedRatings = [...ratings].sort((a, b) => {
