@@ -114,13 +114,14 @@ const AppsDetailsPage = () => {
             {/* bar Chart */}
             <div className="w-11/12 mx-auto">
                 <h2 className="text-2xl font-bold">Rating</h2>
-                <div className="space-y-4">
-                    <BarChart
-                        style={{ width: '1500px', maxWidth: '1500px', maxHeight: '700px', aspectRatio: 1.618 }}
+                <div className="space-y-4 w-full h-300px md:h-500px lg:h-700px">
+
+                        <BarChart
+                        style={{ width: '100%', maxWidth: '700px', maxHeight: '70vh', aspectRatio: 1.618 }}
                         responsive
                         layout="vertical"
-                        width={700}
-                        height={400}
+                        width="100%"
+                        height="100%"
                         data={bigRating}
 
                     >
@@ -131,6 +132,7 @@ const AppsDetailsPage = () => {
                         <Legend />
                         <Bar dataKey="count" fill="#FF8811" activeBar={{ fill: 'pink', stroke: 'blue' }} radius={[0, 10, 10, 0]} />
                     </BarChart>
+            
                 </div>
             </div>
 

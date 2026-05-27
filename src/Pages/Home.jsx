@@ -24,7 +24,7 @@ const Home = () => {
             <div className=" text-center px-4 md:px-8 lg:px-12 py-4 md:py-8 lg:py-12 flex-1">
                 <h2 className="text-6xl font-bold">We Build</h2>
                 <h3 className="text-6xl font-bold"><span className="bg-gradient-to-r from-[rgb(108,13,231)] to-[rgb(142,7,221)] bg-clip-text text-transparent">Productive</span> Apps</h3>
-                <p className="text-xl md:w-300 w-150 mx-auto text-gray-500 p-2">At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                <p className="text-xl  mx-auto text-gray-500 p-2">At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className="space-x-4 p-2">
                     <button onClick={handleClickGooglePlayStore} className="btn h-15 border-gray-400 text-xl">
                         <img src="/src/assets/P.png" alt="" />

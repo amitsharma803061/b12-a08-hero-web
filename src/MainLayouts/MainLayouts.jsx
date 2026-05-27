@@ -12,7 +12,6 @@ const MainLayouts = () => {
             </div>
             <Footer></Footer>
 
-            // akhane toast
             <ToastContainer
                 position="top-right"
                 autoClose={5000}
